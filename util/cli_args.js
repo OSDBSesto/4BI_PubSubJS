@@ -110,7 +110,7 @@ function add_pub_sub_arguments(yargs) {
             alias: 't',
             description: 'Topic to publish to',
             type: 'string',
-            default: 'test/topic'
+            default: 'topicpogliani'
         })
         .option('count', {
             alias: 'n',

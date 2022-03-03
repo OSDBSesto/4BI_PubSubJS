@@ -11,7 +11,6 @@
     "AWS SDK Common Runtime Team <aws-sdk-common-runtime@amazon.com>"
   ],
   "license": "Apache-2.0",
-  "main": "./index.js",
   "dependencies": {
     "aws-crt": "^1.11.0",
     "aws-iot-device-sdk-v2": "^1.7.0",

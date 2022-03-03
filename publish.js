@@ -49,6 +49,7 @@ async function execute_session(connection, argv) {
 }
 
 async function main(argv) {
+    console.log(argv)
     common_args.apply_sample_arguments(argv);
 
     const connection = common_args.build_connection_from_cli_args(argv);
