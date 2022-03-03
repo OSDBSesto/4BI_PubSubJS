@@ -1,0 +1,27 @@
+{
+  "name": "pub-sub-js",
+  "version": "1.0.0",
+  "description": "NodeJS IoT SDK v2 Pub Sub JS Sample",
+  "homepage": "https://github.com/aws/aws-iot-device-sdk-js-v2",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aws/aws-iot-device-sdk-js-v2.git"
+  },
+  "contributors": [
+    "AWS SDK Common Runtime Team <aws-sdk-common-runtime@amazon.com>"
+  ],
+  "license": "Apache-2.0",
+  "main": "./index.js",
+  "dependencies": {
+    "aws-crt": "^1.11.0",
+    "aws-iot-device-sdk-v2": "^1.7.0",
+    "util": "^0.12.4",
+    "yargs": "^16.2.0",
+    "typedoc-plugin-external-module-name": "^4.0.6",
+    "typedoc-plugin-remove-references": "^0.0.5",
+    "@types/node": "^10.17.50",
+    "cmake-js": "^6.1.0",
+    "typedoc": "^0.17.8",
+    "typescript": "^3.9.7"
+  }
+}
